@@ -1018,10 +1018,16 @@ svg path {
 .copyright {
   border-top: 1px solid var(--line);
   color: var(--bone);
-  font-weight: 600;
+  font-weight: 500;
   grid-column: 1 / -1;
   padding-top: 1.5rem;
   text-align: right;
+}
+
+.copyright sup {
+  font-size: 0.52em;
+  line-height: 0;
+  vertical-align: super;
 }
 
 .sr-only {
